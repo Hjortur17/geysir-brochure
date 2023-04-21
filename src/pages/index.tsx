@@ -45,8 +45,8 @@ export default function Home() {
         
         <h4 className='text-left font-black text-sm uppercase block lg:hidden mb-4'>Links to subjects</h4>
         
-        <div className="mb-32 -mx-5 grid text-left lg:text-center lg:mb-0 lg:grid-cols-4 lg:text-left items-end">
-          <h4 className='col-span-4 mx-5  font-black text-sm uppercase hidden lg:block'>Links to subjects</h4>
+        <div className="mb-32 -mx-5 grid text-left lg:text-center lg:mb-0 lg:grid-cols-4 items-end">
+          <h4 className='col-span-4 mx-5 mb-4 font-black text-sm uppercase hidden lg:block'>Links to subjects</h4>
           <Link
             href="#useful-information"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-300 hover:bg-neutral-100/30"
@@ -61,7 +61,7 @@ export default function Home() {
             <p
               className={`m-0 max-w-[30ch] text-sm opacity-50`}
             >
-              Find in-depth information about Next.js features and API.
+              Find useful information about your insurance and damage prices.
             </p>
           </Link>
 
@@ -79,7 +79,7 @@ export default function Home() {
             <p
               className={`m-0 max-w-[30ch] text-sm opacity-50`}
             >
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Find information about driving in Iceland.
             </p>
           </Link>
 
@@ -97,7 +97,7 @@ export default function Home() {
             <p
               className={`m-0 max-w-[30ch] text-sm opacity-50`}
             >
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              Read about Icelandic rules and regulations.
             </p>
           </Link>
 
@@ -115,7 +115,7 @@ export default function Home() {
             <p
               className={`m-0 max-w-[30ch] text-sm opacity-50`}
             >
-              Instantly deploy your Next.js site to a shareable URL with Vercel.
+              See our Insurances and what they cover.
             </p>
           </Link>
         </div>
@@ -158,7 +158,8 @@ export default function Home() {
             </li>
           </ul>
 
-          <table className='w-full table-fixed mt-12'>
+          <h4 className='font-black text-sm uppercase mt-12 mb-4'>Here are example prices for the most common damages</h4>
+          <table className='w-full table-fixed'>
             <thead>
               <tr className='bg-neutral-100'>
                 <th className='p-2 border'>Class</th>
