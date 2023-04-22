@@ -611,6 +611,59 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="w-full my-6 mt-0 lg:my-24 lg:mt-0" id="insurances">
+        <div className="w-full h-[50vh] bg-cover bg-center bg-[url('/insurances-cover.jpg')] mb-24">
+          <div className='bg-neutral-900/60 backdrop-brightness-70 h-full w-full flex items-center justify-center'>
+            <h2 className='text-4xl 2xl:text-7xl font-bold text-white'>Insurances</h2>
+          </div>
+        </div>
+
+        <div className='max-w-6xl mx-auto py-6 pt-0 lg:py-24 lg:pt-0 space-y-12 px-8 lg:px-0'>
+          <div className='w-full'>
+            <h3 className='text-2xl 2xl:text-3xl font-bold mb-2 capitalize'>Is not covered</h3>
+            <p className='text-lg'>
+              Here are the things that are <strong>never</strong> covered by any insurance from Geysir.
+            </p>
+
+            <h4 className='mb-4 font-black uppercase mt-8'>These things are:</h4>
+            <ul className='list-disc mb-8'>
+              <li className='text-lg'>Damages to the underbody.</li>
+              <li className='text-lg'>Damages when driving off-road.</li>
+              <li className='text-lg'>Damages to the tires and wheels.</li>
+              <li className='text-lg'>Damages when driving in water.</li>
+            </ul>
+          </div>
+
+          <div className='w-full'>
+            <h3 className='text-2xl 2xl:text-3xl font-bold mb-2 capitalize'>Emergency Roadside Assistance</h3>
+            <p className='text-lg'>
+              If the car malfunctions due to normal wear and tear, or for other reasons beyond the renter’s control, Geysir shall supply the renter with a comparable vehicle as soon as possible or arrange to have repairs done without delay by a Geysir service partner. A refund will be made for a lost rental time according to Geysir rulebook.
+            </p>
+          </div>
+
+          <div className='w-full'>
+            <h3 className='text-2xl 2xl:text-3xl font-bold mb-2 capitalize'>Refund Rulebook</h3>
+            <p className='text-lg'>
+              Roadside assistance required because of a breakdown, accident, damage or other reasons that is the driver´s / renter´s responsibility Geysir Car Rental will charge the renter for the assistance. The fee for such assistance and/or retrieval fee for picking up a rental car can vary depending on the location and what type of assistance is required. Price is 450 ISK per kilometer both ways. That is in addition to the damages to the rental car itself. 
+            </p>
+            <p className='text-lg my-4'>
+              This fee is of course not charged if the assistance can be traced to a breakdown, or other reasons that are Geysir Car Rental´s responsibility.
+            </p>
+            <p className='text-lg'>
+              In that case Geysir will cover the roadside assistance and/or exchange of the vehicles and offer a compensation for the lost time on the trip in following order:
+            </p>
+
+            <ul className='list-disc mt-2'>
+              <li className='text-lg'>0-6 hours - no compensation.</li>
+              <li className='text-lg'>6-12 hours - Half a day refund</li>
+              <li className='text-lg'>12-24 hours - 1 day refund</li>
+              <li className='text-lg'>24-48 hours - 2 days refund</li>
+              <li className='text-lg'>48+ hours - Full refund </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
